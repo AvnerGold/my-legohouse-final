@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap"
+    rel="stylesheet">
+    <title>home</title>
+</head>
+
+<body>
+    <div class="pop">Added To Cart</div>
+    <div class="slideshow-present">
+        <div class="mySlides-box">
+            <div class="mySlides fade">
+                <div class="text">FREE Shipping with orders over $35! </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="text">VIP gift with Star Wars™ purchases over $70</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">
+                <</a> <a class="next" onclick="plusSlides(1)">>
+            </a>
+        </div>
+
+        <div class="remove-quit">
+            <a class="quit"><i class="fa fa-times" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+    <div class="header section"></div>
+   
+    <div class="links-phone" style="display: none;"></div>
+
+    <div class="slideshow-main">
+        <div class="slide-img">
+            <img class="image" src="images/main3.jpg" id="lastClone" alt="">
+            <img src="images/main1.jpg" alt="">
+            <img src="images/main2.jpg" alt="">
+            <img src="images/main3.jpg" alt="">
+            <img src="images/main1.jpg" id="firstClone" alt="">            
+        </div>
+        <button id="prevBtn" class="prevBtn"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+        <button id="nextBtn" class="nextBtn"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        <div class="bottom-learn">
+            <span class="learn-text">amazing buildings with amazing people</span>
+           <span> <a href="#">Learn more</a></span>
+        </div>
+       
+    </div>
+
+    <div class="Categories"></div>
+    
+    <div class="Reccommended">
+        <div class="Reccommended-description">
+            <h2>Reccommended For First Time</h2>
+        </div>
+
+        <div class="products-first">
+            <div class="container">
+            </div>
+        </div>
+    </div>
+
+    <div class="Reccommended">
+        <div class="Reccommended-description">
+            <h2>Reccommended For PRO builders</h2>
+        </div>
+
+        <div class="products-second">
+            <div class="container">              
+            </div>
+        </div>
+    </div>
+
+    <div class="Reccommended">
+        <div class="Reccommended-description">
+            <h2>Reccommended For PRO builders</h2>
+        </div>
+
+        <div class="products-third">
+            <div class="container">              
+            </div>
+        </div>
+    </div>
+
+    <div class="footer"></div>
+
+    <script src="products.js"></script>
+    <script src="functions.js"></script>
+    <script src="homeScript.js"></script>
+</body>
+
+</html>
